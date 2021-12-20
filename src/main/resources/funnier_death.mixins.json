@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.sarinsa.funnier_death.common.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "funnier_death.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
