@@ -17,7 +17,7 @@ apply plugin: "org.spongepowered.mixin"
 
 version = "${mc_version}-${mod_version}"
 group = 'com.sarinsa.funnier_death'
-archivesBaseName = 'funnier_death'
+archivesBaseName = 'Funnier-Death'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
