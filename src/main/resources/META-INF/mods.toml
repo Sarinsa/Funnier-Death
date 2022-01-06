@@ -10,7 +10,9 @@ logoFile="laughing_skull_so_funny.png"
 credits="My dumb brain and Frenderman (magnificent logo)"
 authors="Sarinsa"
 description='''
-Spices up entity death animations.
+
+    A very mod that really does.
+
 '''
 [[dependencies.funnier_death]]
     modId="forge"
