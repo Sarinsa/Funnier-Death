@@ -1,6 +1,8 @@
 package com.sarinsa.funnier_death.common.core;
 
 import com.sarinsa.funnier_death.common.core.config.FDClientConfig;
+import com.sarinsa.funnier_death.common.event.EntityEvents;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
@@ -20,6 +22,8 @@ public class FunnierDeath {
 
     public FunnierDeath() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        MinecraftForge.EVENT_BUS.register(new EntityEvents());
 
         eventBus.addListener(this::onCommonSetup);
 

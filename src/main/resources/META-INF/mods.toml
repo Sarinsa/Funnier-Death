@@ -6,8 +6,8 @@ license="MIT"
 modId="funnier_death"
 version="${file.jarVersion}"
 displayName="Funnier Death"
-logoFile="examplemod.png"
-credits="Yeah"
+logoFile="laughing_skull_so_funny.png"
+credits="My dumb brain and Frenderman (magnificent logo)"
 authors="Sarinsa"
 description='''
 Spices up entity death animations.
